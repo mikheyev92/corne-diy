@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/outputs.h>
 
+
+// Устанавливаем приоритет BLE
+&out OUT_BLE;
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -131,5 +135,4 @@
 //                    |     |     |     |   |     |     |     |
 
 
-// Устанавливаем приоритет BLE
-&out OUT_BLE;
+
