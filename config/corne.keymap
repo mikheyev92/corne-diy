@@ -12,9 +12,8 @@
     zmk,output {
         compatible = "zmk,output-ble";
         priority = 1;  // Устанавливаем приоритет BLE
+        outputs = <&out OUT_BLE>;  // Указываем выход BLE
     };
-
-    &out OUT_BLE;  // Устанавливаем приоритет BLE здесь
 
     combos {
         compatible = "zmk,combos";
