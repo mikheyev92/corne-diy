@@ -120,6 +120,15 @@
                               &trans            &trans           &trans    &trans  &trans  &trans
             >;
         };
+
+        RU {
+            bindings = <
+&trans  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE  &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE  &kp RU_CYRILLIC_HA
+&trans  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE    &trans              &trans               &trans               &trans                 &trans              &trans
+&trans  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I     &trans              &trans               &trans               &trans                 &trans              &trans
+                                                       &trans              &trans              &trans                &trans              &trans               &trans
+            >;
+        };
     };
 };
 
