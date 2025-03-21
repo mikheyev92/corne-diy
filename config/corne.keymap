@@ -112,12 +112,12 @@
             >;
         };
 
-        layer_3 {
+        adjust {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOLUME_UP  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &kp K_PLAY_PAUSE  &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans            &trans           &trans    &trans  &trans  &trans
             >;
         };
     };
