@@ -97,7 +97,7 @@
             >;
         };
 
-        raise_layer {
+        num {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  &  |  %  |   |  ^  |  $  |  *  |  (  |  )  | BSPC |
             // | CTRL |MUTE |V_UP |V_DWN|  <  |  >  |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -105,10 +105,10 @@
             //                    | GUI |     | SPC |   | SPC |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL    &kp AT             &kp HASH         &kp AMPERSAND  &kp PRCNT           &kp CARET  &kp DOLLAR  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LESS_THAN  &kp GREATER_THAN    &kp MINUS  &kp EQUAL   &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans      &trans             &trans           &trans         &trans              &kp UNDER  &kp PLUS    &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                          &kp LGUI         &trans         &kp SPACE           &kp SPACE  &trans      &kp RALT
+&kp TAB    &kp EXCL    &kp AT             &kp HASH         &kp AMPERSAND  &kp PRCNT           &kp FSLH   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS  &kp BSPC
+&kp LCTRL  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LESS_THAN  &kp GREATER_THAN    &kp ASTRK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp EQUAL
+&kp LSHFT  &trans      &trans             &trans           &trans         &trans              &kp COMMA  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp ENTER
+                                          &kp LGUI         &trans         &kp SPACE           &kp SPACE  &trans        &kp N0
             >;
         };
 
