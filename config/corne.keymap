@@ -82,7 +82,7 @@
             >;
         };
 
-        lower_layer {
+        nav {
             // -----------------------------------------------------------------------------------------
             // | SYSR |     |     |     |     |     |   |     |  1  |  2  |  3  |  0  |      |
             // |      |     |     | UP  |     |     |   |     |  4  |  5  |  6  |     |      |
@@ -90,9 +90,9 @@
             //                    |     |     | SPC |   | SPC |     |     |
 
             bindings = <
-&sys_reset  &msc SCRL_DOWN  &trans          &mmv MOVE_UP    &trans           &trans       &trans     &kp NUMBER_1    &kp UP          &kp NUMBER_3  &kp PG_UP      &kp HOME
-&trans      &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans       &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &kp PAGE_DOWN  &kp END
-&trans      &trans          &trans          &trans          &trans           &mkp RCLK    &trans     &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9  &trans         &trans
+&sys_reset  &msc SCRL_DOWN  &trans          &mmv MOVE_UP    &trans           &trans       &trans     &trans          &kp UP          &trans     &kp PG_UP      &kp HOME
+&trans      &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans       &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN  &kp END
+&trans      &trans          &trans          &trans          &trans           &mkp RCLK    &trans     &trans          &trans          &trans     &trans         &trans
                                             &trans          &mkp LCLK        &kp SPACE    &kp SPACE  &trans          &trans
             >;
         };
